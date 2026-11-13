@@ -53,7 +53,7 @@ h1, h2, h3 { margin: 0; font-weight: 700; letter-spacing: -0.035em; line-height:
 /* hero */
 .hero { padding: 40px 0 0; border-bottom: 1px solid var(--rule); }
 .hero-meta { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 8px 24px; color: var(--muted); padding-bottom: 28px; }
-.hero h1 { font-size: clamp(3.4rem, 11.5vw, 10.5rem); letter-spacing: -0.055em; line-height: 0.86; }
+.hero h1 { font-size: clamp(2.9rem, 11.5vw, 10.5rem); letter-spacing: -0.055em; line-height: 0.86; }
 .hero h1 .arrow { color: var(--signal); font-weight: 400; letter-spacing: 0; margin-right: 0.12em; }
 .hero-grid { display: grid; grid-template-columns: repeat(12, 1fr); gap: 24px; margin-top: 44px; border-top: 1px solid var(--rule); }
 .hero-grid > * { padding: 22px 0 40px; }
@@ -121,7 +121,7 @@ figcaption .mono { color: var(--muted); }
 figcaption b { font-size: 1.15rem; letter-spacing: -0.02em; }
 figcaption span:last-child { grid-column: 2 / -1; color: var(--ink-2); font-size: 15.5px; }
 figcaption .src { grid-column: 3; grid-row: 1; }
-figcaption .src a { text-decoration: underline; text-underline-offset: 3px; }
+figcaption .src a { text-decoration: underline; text-underline-offset: 3px; display: inline-block; padding: 3px 0; }
 
 /* services */
 .services { display: grid; grid-template-columns: repeat(3, 1fr); }
@@ -181,7 +181,7 @@ footer .co { grid-column: 1 / span 7; }
 footer .co b { color: var(--ink); }
 footer address { font-style: normal; margin-top: 6px; }
 footer nav { grid-column: 8 / -1; display: flex; flex-wrap: wrap; gap: 4px 20px; justify-content: flex-end; align-content: start; }
-footer nav a { text-decoration: none; padding: 6px 0; }
+footer nav a { text-decoration: none; padding: 6px 0; display: inline-block; min-width: 24px; }
 footer nav a:hover { color: var(--ink); text-decoration: underline; text-underline-offset: 3px; }
 
 /* legal page */
